@@ -1,4 +1,4 @@
-# Getting started
+# Commander
 
 {{cookiecutter.project_description}}
 
@@ -11,5 +11,7 @@
 ## Installation
 
 ```shell
-pip install {{cookiecutter.project_name}}
+pip install {{{{cookiecutter.project_name}}}}
 ```
+
+For more checkout [documentation.](https://ozcanyarimdunya.github.io/{{cookiecutter.project_name}}/)
