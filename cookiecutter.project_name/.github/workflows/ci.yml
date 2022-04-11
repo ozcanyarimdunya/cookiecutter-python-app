@@ -6,26 +6,20 @@ on:
 
 jobs:
   deploy:
-
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: "3.9"
-{% raw %}
     - name: Cache dependencies
       uses: actions/cache@v2
       with:
-        path: ${{ env.pythonLocation }}
-        key: ${{ env.pythonLocation }}-${{ hashFiles('dev-requirements.txt') }}
-{% endraw %}
+        path: $\{\{ env.pythonLocation \}\}
+        key: $\{\{ env.pythonLocation \}\}-$\{\{ hashFiles('dev-requirements.txt') \}\}
     - name: Install dependencies
       run: make install
-
     - name: Publish site to the GitHub pages
       run: make publish
