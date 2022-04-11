@@ -1,0 +1,5 @@
+{
+  "project_name": "Enter project name: ",
+  "project_description": "Enter project description: ",
+  "site_name": "{{ cookiecutter.project_name | title }}"
+}
