@@ -1,5 +1,6 @@
 {
   "project_name": "Enter project name: ",
   "project_description": "Enter project description: ",
-  "site_name": "{{ cookiecutter.project_name | title }}"
+  "site_name": "{{ cookiecutter.project_name | title }}",
+  "version": "0.1.0"
 }

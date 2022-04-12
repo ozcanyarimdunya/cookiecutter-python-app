@@ -3,5 +3,5 @@
 ## Sample usage
 
 ```python
-{!tut01.py!}
+{!docs/tutorial/tut01.py!}
 ```

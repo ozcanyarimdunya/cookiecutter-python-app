@@ -16,4 +16,11 @@ Grab the project
 cookiecutter gh:ozcanyarimdunya/cookiecutter-python-app
 ```
 
+Then install requirements.
+
+```shell
+cd project_name/
+poetry install
+```
+
 You're done!
